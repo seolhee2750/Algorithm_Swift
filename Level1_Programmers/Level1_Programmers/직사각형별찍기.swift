@@ -1,10 +1,3 @@
-//
-//  main.swift
-//  Level1_Programmers
-//
-//  Created by 설희pc on 2021/06/03.
-//
-
 import Foundation
 
 let n = readLine()!.components(separatedBy: [" "]).map { Int($0)! }
