@@ -10,5 +10,6 @@ func solution(_ n:Int) -> Int
     return answer
 }
 
+// 입출력 예시
 solution(123)
 solution(987)

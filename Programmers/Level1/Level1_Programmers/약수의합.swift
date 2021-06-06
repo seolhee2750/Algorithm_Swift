@@ -13,6 +13,7 @@ func solution(_ n:Int) -> Int {
     return sum
 }
 
+// 입출력 예시
 print(solution(12))
 print(solution(5))
 
