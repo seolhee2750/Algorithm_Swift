@@ -1,20 +1,18 @@
 import Foundation
 
 func solution(_ a:Int, _ b:Int) -> String {
-    let day = ["FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"]
-    // 1월 1일이 금요일 --> 금요일부터 배열 생성
-    let monthDay = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
-    // 각 달의 날짜를 담은 배열 생성
-
-    var daySum = 0 // a의 이전 달까지의 날 수 합산
+    // 1월 1일이 금요일이므로, 금요일부터 배열 생성
+    let days = ["FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"]
+    // 모든 달의 일 수를 배열로 생성
+    let months = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    var dayCount = 0 // 해당 날짜까지의 일 수를 합산하기 위한 변수
     
-    // a 전 달까지 날 수 모두 더하기
+    // 입력 월의 전 달까지 날 수를 누적
     for i in 0..<a-1 {
-        daySum += monthDay[i]
+        dayCount += months[i]
     }
     
-    // ((이전 달까지의 날 수 + 해당 월의 날짜) % 7) - 1
-    return day[(daySum + b) % 7 - 1]
+    return days[(dayCount + b - 1) % 7]
 }
 
 print(solution(5, 24))
