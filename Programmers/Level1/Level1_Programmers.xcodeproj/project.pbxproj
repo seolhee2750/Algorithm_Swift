@@ -48,8 +48,8 @@
 		754D42FB266BD1ED00465984 /* 약수의합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "약수의합.swift"; sourceTree = "<group>"; };
 		75589EF8266B65F900B0AD14 /* 자연수뒤집어배열로만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "자연수뒤집어배열로만들기.swift"; sourceTree = "<group>"; };
 		75589EFB266B6BED00B0AD14 /* 자릿수더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "자릿수더하기.swift"; sourceTree = "<group>"; };
-		75589EFF266B6ED200B0AD14 /* 이상한수만들기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이상한수만들기.swift"; sourceTree = "<group>"; };
-		75589F01266B83D500B0AD14 /* 이상한수만들기_string이용.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이상한수만들기_string이용.swift"; sourceTree = "<group>"; };
+		75589EFF266B6ED200B0AD14 /* 이상한문자만들기_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이상한문자만들기_1.swift"; sourceTree = "<group>"; };
+		7572EED6266E4B9B00C8AF6D /* 이상한문자만들기_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이상한문자만들기_2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +96,8 @@
 				7507F75E266A1C33004CC930 /* 콜라츠추측.swift */,
 				75589EF8266B65F900B0AD14 /* 자연수뒤집어배열로만들기.swift */,
 				75589EFB266B6BED00B0AD14 /* 자릿수더하기.swift */,
-				75589EFF266B6ED200B0AD14 /* 이상한수만들기.swift */,
-				75589F01266B83D500B0AD14 /* 이상한수만들기_string이용.swift */,
+				75589EFF266B6ED200B0AD14 /* 이상한문자만들기_1.swift */,
+				7572EED6266E4B9B00C8AF6D /* 이상한문자만들기_2.swift */,
 				754D42FB266BD1ED00465984 /* 약수의합.swift */,
 				754114EE266C7ED7009B145A /* 문자열을정수로바꾸기.swift */,
 				754114F1266C80D4009B145A /* 시저암호.swift */,
