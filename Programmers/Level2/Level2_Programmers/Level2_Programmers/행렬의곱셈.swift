@@ -5,7 +5,7 @@ func solution(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
     
     for i in 0..<arr1.count {
         var tempArr = [Int]() // 한 행을 만들어 넣을 배열 생성
-        for j in 0 ..< arr2[0].count {
+        for j in 0 ..< arr2[0].count { // arr2[0]의 길이만큼 곱셈이 시행될 것,!,!,!
             var sum = 0 // 값을 더해줄 변수 생성
             for k in 0 ..< arr1[0].count {
                 sum += arr1[i][k] * arr2[k][j] // 메인 계산식
