@@ -9,6 +9,7 @@ import Foundation
 //
 //    return (fibo[n] % 1234567)
 //}
+// --> % 연산을 나중에 하게 되면 배열에 들어가는 값들이 
 
 func solution(_ n:Int) -> Int {
   var fibo = [0, 1] // 어차피 n은 2 이상만 입력되기 때문에 0, 1은 미리 입력하여 배열 생성
