@@ -12,5 +12,6 @@ func solution(_ A:[Int], _ B:[Int]) -> Int {
     return result
 }
 
+// 입출력 예시
 print(solution([1, 4, 2], [5, 4, 4]))
 print(solution([1, 2], [3, 4]))
