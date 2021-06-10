@@ -1,3 +1,5 @@
+// 시간 초과,,
+
 import Foundation
 
 func solution(_ land:[[Int]]) -> Int {
@@ -24,4 +26,5 @@ func solution(_ land:[[Int]]) -> Int {
     return arr.last!.max()!
 }
 
+// 입출력 예시
 print(solution([[1,2,3,5],[5,6,7,8],[4,3,2,1]]))
