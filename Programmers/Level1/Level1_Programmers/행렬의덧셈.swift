@@ -1,6 +1,11 @@
+// 프로그래머스 레벨1. 행렬의 덧셈
+//
+// 두 바퀴 째 - 미쳐따 훨씬 깔끔해졌다
+
 import Foundation
 
-func solution(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
+// 첫 번째 풀이
+func solution1(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
     var array1 = [Int]() // 1차원 배열 생성 (죄종적으로 만들 2중 배열 안의 행을 만들기 위한 배열)
     var array2 = [[Int]]() // 2차원 배열 생성 (최종적으로 리턴 할 배열)
     var sum = 0 // 원소들을 더한 값 저장할 변수
@@ -15,9 +20,24 @@ func solution(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
         array1.removeAll()
     }
     
-    print(array2)
     return array2
 }
 
-solution([[1, 2], [2, 3]], [[3, 4], [5, 6]])
-solution([[1], [2]], [[3], [4]])
+// 두 바퀴 째 풀이
+func solution2(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
+    var result = arr1
+    
+    for i in 0..<arr1.count {
+        for j in 0..<arr1[1].count {
+            result[i][j] += arr2[i][j]
+        }
+    }
+    return result
+}
+
+// 입출력 예시
+print(solution1([[1, 2], [2, 3]], [[3, 4], [5, 6]]))
+print(solution1([[1], [2]], [[3], [4]]))
+
+print(solution2([[1, 2], [2, 3]], [[3, 4], [5, 6]]))
+print(solution2([[1], [2]], [[3], [4]]))
