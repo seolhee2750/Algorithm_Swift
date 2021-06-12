@@ -1,6 +1,11 @@
+// 프로그래머스 레벨1. 콜라츠 추측
+//
+// 두 바퀴 째 - 첫 번째 풀이랑 로직은 같은데 반복 횟수를 if문 밖으로 꺼내서 효율 높아졌다,.!
+
 import Foundation
 
-func solution(_ num:Int) -> Int {
+// 첫 번째 풀이
+func solution1(_ num:Int) -> Int {
     var repeatTime = 0 // 콜라츠 추측 반복 횟수 저장 변수
     var n = num // 입력 값
     
@@ -26,11 +31,40 @@ func solution(_ num:Int) -> Int {
     }
     
     // 콜라츠 추측 성공 시 반복 횟수 출력, 500번 이상 반복 시 -1 리턴
-    print(repeatTime)
     return repeatTime
 }
 
+// 두 번째 바퀴
+func solution2(_ num:Int) -> Int {
+    var result = num
+    var count = 0
+    
+    while result != 1 {
+        if result % 2 == 0 {
+            result = result / 2
+        }
+        else {
+            result = result * 3 + 1
+        }
+        
+        count += 1
+        
+        if count == 500 {
+            count = -1
+            break
+        }
+    }
+    
+    return count
+}
+
 // 입출력 예시
-solution(6)
-solution(16)
-solution(626331)
+print(solution1(6))
+print(solution1(16))
+print(solution1(626331))
+
+print(solution2(6))
+print(solution2(16))
+print(solution2(626331))
+
+
