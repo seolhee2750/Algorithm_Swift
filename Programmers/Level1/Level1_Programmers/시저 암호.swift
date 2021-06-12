@@ -1,5 +1,10 @@
-// 참고
+// 프로그래머스 레벨1. 시저 암호
+//
+// 첫 번째 풀이 참고
 // https://lazyowl.tistory.com/entry/Swift-Programmers-%EC%8B%9C%EC%A0%80%EC%95%94%ED%98%B8
+//
+// 두 바퀴 째 - 실패; 내일 다시 해보자...
+
 
 import Foundation
 
@@ -48,6 +53,6 @@ func solution(_ s:String, _ n:Int) -> String {
 }
 
 // 입출력 예시
-print(solution("AB", 1))
-print(solution("z", 1))
-print(solution("a B z", 4))
+print(solution1("AB", 1))
+print(solution1("z", 1))
+print(solution1("a B z", 4))
