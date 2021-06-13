@@ -1,6 +1,6 @@
 // 프로그래머스 레벨1. 핸드폰 번호 가리기
 //
-// 두 바퀴 째 - 훨씬 깔끔해져따! suffix랑 prefix랑 정리해야겠다,,,.
+// 두 바퀴째 - 훨씬 깔끔해져따! suffix랑 prefix랑 정리해야겠다,,,.
 
 import Foundation
 
@@ -22,7 +22,7 @@ func solution1(_ phone_number:String) -> String {
     return result
 }
 
-// 두 바퀴 째 풀이
+// 두 바퀴째 풀이
 func solution2(_ phone_number:String) -> String {
     var result = [String]()
     

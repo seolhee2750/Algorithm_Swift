@@ -1,6 +1,6 @@
 // 프로그래머스 레벨1. 평균 구하기
 //
-// 두 바퀴 째 - 리턴 문 한 줄로 완성,, 이 정도는 가독성 상관 없이 한 줄로도 충분 한 듯
+// 두 바퀴째 - 리턴 문 한 줄로 완성,, 이 정도는 가독성 상관 없이 한 줄로도 충분 한 듯
 
 import Foundation
 
@@ -11,7 +11,7 @@ func solution1(_ arr:[Int]) -> Double {
     return result
 }
 
-// 두 바퀴 째 풀이
+// 두 바퀴째 풀이
 func solution2(_ arr:[Int]) -> Double {
     return Double(arr.reduce(0, +))/Double(arr.count)
 }

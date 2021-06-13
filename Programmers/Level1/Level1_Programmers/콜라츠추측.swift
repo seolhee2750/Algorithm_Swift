@@ -1,6 +1,6 @@
 // 프로그래머스 레벨1. 콜라츠 추측
 //
-// 두 바퀴 째 - 첫 번째 풀이랑 로직은 같은데 반복 횟수를 if문 밖으로 꺼내서 효율 높아졌다,.!
+// 두 바퀴째 - 첫 번째 풀이랑 로직은 같은데 반복 횟수를 if문 밖으로 꺼내서 효율 높아졌다,.!
 
 import Foundation
 
@@ -34,7 +34,7 @@ func solution1(_ num:Int) -> Int {
     return repeatTime
 }
 
-// 두 번째 바퀴
+// 두 바퀴째
 func solution2(_ num:Int) -> Int {
     var result = num
     var count = 0

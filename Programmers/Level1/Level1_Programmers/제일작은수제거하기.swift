@@ -1,6 +1,6 @@
 // 프로그래머스 레벨1. 제일 작은 수 제거하기
 //
-// 두 바퀴 째 - 시간 초과..!!ㅜ 첫 번째 풀이처럼 filter 쓰는 방법이 더 깔끔한 듯
+// 두 바퀴째 - 시간 초과..!!ㅜ 첫 번째 풀이처럼 filter 쓰는 방법이 더 깔끔한 듯
 
 import Foundation
 
@@ -13,7 +13,7 @@ func solution1(_ arr:[Int]) -> [Int] {
     return notMinArr.isEmpty ? [-1] : notMinArr
 }
 
-// 두 바퀴 째 풀이
+// 두 바퀴째 풀이
 func solution2(_ arr:[Int]) -> [Int] {
     var result = arr
     var minIndex = 0

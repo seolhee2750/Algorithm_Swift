@@ -2,7 +2,7 @@
 //
 // components 사용하여 풀이
 //
-// 두 바퀴 째 - 첫 번째 풀이보다 가독성도 좋고 로직도 이게 더 나은듯!!
+// 두 바퀴째 - 첫 번째 풀이보다 가독성도 좋고 로직도 이게 더 나은듯!!
 
 import Foundation
 
@@ -26,7 +26,7 @@ func solution1(_ s:String) -> String {
     return arr.joined(separator: " ")
 }
 
-// 두 바퀴 째 풀이
+// 두 바퀴째 풀이
 func solution2(_ s:String) -> String {
     var result = ""
     var count = 0

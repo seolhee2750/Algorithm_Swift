@@ -1,6 +1,6 @@
 // 프로그래머스 레벨1. 하샤드 수
 //
-// 두 바퀴 째 - return 부분 훨씬 깔끔하게 됐당 / 여전히 map이랑 reduce는 완벽하지 못함,.,!ㅣ,.
+// 두 바퀴째 - return 부분 훨씬 깔끔하게 됐당 / 여전히 map이랑 reduce는 완벽하지 못함,.,!ㅣ,.
 // 한 줄로도 바꿀 수 있을 것 같은데 가독성 생각하면 차라리 이 정도가 좋은듯??.
 
 import Foundation
@@ -20,7 +20,7 @@ func solution1(_ x:Int) -> Bool {
     }
 }
 
-// 두 바퀴 째 풀이
+// 두 바퀴째 풀이
 func solution2(_ x:Int) -> Bool {
     let result = String(x).map{ Int(String($0))! }.reduce(0, +)
     return x % result == 0

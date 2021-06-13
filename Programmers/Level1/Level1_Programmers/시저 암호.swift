@@ -3,7 +3,7 @@
 // 첫 번째 풀이 참고
 // https://lazyowl.tistory.com/entry/Swift-Programmers-%EC%8B%9C%EC%A0%80%EC%95%94%ED%98%B8
 //
-// 두 바퀴 째 - 실패; 내일 다시 해보자...
+// 두 바퀴째 - 실패; 내일 다시 해보자...
 
 
 import Foundation

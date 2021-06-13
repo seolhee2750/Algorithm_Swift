@@ -1,6 +1,6 @@
 // 프로그래머스 레벨1. 자릿수 더하기
 //
-// 두 바퀴 째 - 첫 번째 풀이랑 로직은 같지만 훨씬 깔끔해져따!
+// 두 바퀴째 - 첫 번째 풀이랑 로직은 같지만 훨씬 깔끔해져따!
 
 import Foundation
 
@@ -13,7 +13,7 @@ func solution1(_ n:Int) -> Int
     return answer
 }
 
-// 두 바퀴 째 풀이
+// 두 바퀴째 풀이
 func solution2(_ n:Int) -> Int {
     return String(n).map{ Int(String($0))! }.reduce(0, +)
 }

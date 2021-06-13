@@ -1,6 +1,6 @@
 // 프로그래머스 레벨1. 행렬의 덧셈
 //
-// 두 바퀴 째 - 미쳐따 훨씬 깔끔해졌다
+// 두 바퀴째 - 미쳐따 훨씬 깔끔해졌다
 
 import Foundation
 
@@ -23,7 +23,7 @@ func solution1(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
     return array2
 }
 
-// 두 바퀴 째 풀이
+// 두 바퀴째 풀이
 func solution2(_ arr1:[[Int]], _ arr2:[[Int]]) -> [[Int]] {
     var result = arr1
     
