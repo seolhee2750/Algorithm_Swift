@@ -1,6 +1,11 @@
+// 프로그래머스 레벨1. 소수 찾기
+//
+// 두 바퀴 째 - 첫 번째와 로직은 같은데 가독성 측면에서 더 좋아진듯?,,
+
 import Foundation
 
-func solution(_ n:Int) -> Int {
+// 첫 번째 풀이
+func solution1(_ n:Int) -> Int {
     var result = 0 // 소수의 개수 담기 위한 변수
     var answer = true // 소수인지 아닌지 판별하기 위한 변수
     
@@ -36,7 +41,40 @@ func solution(_ n:Int) -> Int {
     return result
 }
 
+// 두 바퀴 째 풀이
+func solution2(_ n:Int) -> Int {
+    var result = 2
+    var temp = true
+    
+    if n == 2 {
+        return 1
+    }
+    else if n == 3 {
+        return 2
+    }
+    else {
+        for i in 4...n {
+            for j in 2...Int(sqrt(Double(i))){
+                if i % j == 0 {
+                    temp = false
+                    break
+                }
+                else {
+                    temp = true
+                }
+            }
+            if temp == true {
+                result += 1
+            }
+        }
+        return result
+    }
+}
+
 
 // 입출력 예시
-print(solution(10))
-print(solution(5))
+print(solution1(10))
+print(solution1(5))
+
+print(solution2(10))
+print(solution2(5))

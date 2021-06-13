@@ -1,3 +1,7 @@
+// 프로그래머스 레벨1. 수박수박수박수
+//
+// 두 바퀴 째 풀이 - 신기할 정도로 첫 번쨰 풀이랑 아예 똑같음
+
 import Foundation
 
 func solution(_ n:Int) -> String {
