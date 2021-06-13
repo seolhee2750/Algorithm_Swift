@@ -3,11 +3,11 @@
 // 첫 번째 풀이 참고
 // https://lazyowl.tistory.com/entry/Swift-Programmers-%EC%8B%9C%EC%A0%80%EC%95%94%ED%98%B8
 //
-// 두 바퀴째 - 실패; 내일 다시 해보자...
-
+// 두 바퀴째 - 첫 번째 풀었던 풀이보다 로직도 훨씬 깔끔하고 효율적인듯!!
 
 import Foundation
 
+// 첫 번째 풀이
 func solution(_ s:String, _ n:Int) -> String {
     let upperString = Array("abcdefghijklmnopqrstuvwxyz".uppercased()) // 대문자 배열
     let lowerString = Array("abcdefghijklmnopqrstuvwxyz") // 소문자 배열
@@ -48,7 +48,24 @@ func solution(_ s:String, _ n:Int) -> String {
             result.append(i)
         }
     }
+    return result
+}
+
+// 두 바퀴째 풀이
+func solution2(_ s:String, _ n:Int) -> String {
+    var result = ""
+    let strLower = Array("abcdefghijklmnopqrstuvwxyz")
+    let strUpper = Array("abcdefghijklmnopqrstuvwxyz".uppercased())
     
+    for i in s {
+        if i == " " { result.append(" ") }
+        else {
+            if strLower.contains(i) {
+                result.append(String(strLower[(strLower.firstIndex(of: i)! + n) % 26])) }
+            else {
+                result.append(String(strUpper[(strUpper.firstIndex(of: i)! + n) % 26])) }
+        }
+    }
     return result
 }
 
@@ -56,3 +73,9 @@ func solution(_ s:String, _ n:Int) -> String {
 print(solution1("AB", 1))
 print(solution1("z", 1))
 print(solution1("a B z", 4))
+
+print(solution2("AB", 1))
+print(solution2("z", 1))
+print(solution2("a B z", 4))
+
+
