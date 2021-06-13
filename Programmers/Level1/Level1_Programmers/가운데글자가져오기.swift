@@ -1,9 +1,6 @@
+// 프로그래머스 레벨1. 가운데 글자 가져오기
 //
-//  main.swift
-//  Level1_Programmers
-//
-//  Created by 설희pc on 2021/06/06.
-//
+// 두 바퀴째 - 신기하게도 첫 번째랑 완전 똑같음;
 
 import Foundation
 
