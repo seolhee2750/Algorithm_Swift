@@ -1,6 +1,10 @@
 // 참고
-// https://medium.com/@jgj455/%EC%98%A4%EB%8A%98%EC%9D%98-swift-%EC%83%81%EC%8B%9D-closure-aa401f76b7ce
+//
+// 첫 번째 풀이 참고 https://medium.com/@jgj455/%EC%98%A4%EB%8A%98%EC%9D%98-swift-%EC%83%81%EC%8B%9D-closure-aa401f76b7ce
 // https://lazyowl.tistory.com/entry/swift-Programmers-%EB%AC%B8%EC%9E%90%EC%97%B4-%EB%82%B4-%EB%A7%88%EC%9D%8C%EB%8C%80%EB%A1%9C-%EC%A0%95%EB%A0%AC%ED%95%98%EA%B8%B0?category=868952
+//
+// 두 바퀴째 - 첫 번째 풀이 참고하여 풀었음 ㅜ
+// sorted 원형 잘 알고 있어야 할듯.
 
 import Foundation
 
