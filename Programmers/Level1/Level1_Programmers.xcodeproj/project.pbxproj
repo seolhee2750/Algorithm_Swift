@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		75F1C0D12675C1C4009B9055 /* 문자열을정수로바꾸기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 754114EE266C7ED7009B145A /* 문자열을정수로바꾸기.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		75482A422668CBE10010DC17 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -174,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75F1C0D12675C1C4009B9055 /* 문자열을정수로바꾸기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
