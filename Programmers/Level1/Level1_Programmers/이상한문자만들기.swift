@@ -37,7 +37,7 @@ func solution2(_ s:String) -> String {
             count = 0
         }
         else {
-            count % 2 == 0 ? result.append(String(i.uppercased())) : result.append(String(i.lowercased()))
+            count % 2 == 0 ? result.append(String(i.uppercased())) : result.append(String(i))
             count += 1
         }
     }
