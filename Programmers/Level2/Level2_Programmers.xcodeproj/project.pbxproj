@@ -6,10 +6,6 @@
 	objectVersion = 50;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		75CC816B2678BC0E00EBE9D6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75CC816A2678BC0E00EBE9D6 /* main.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		750DA5F9266F47E500E8FC9F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -36,7 +32,7 @@
 		75A4AC8526720B38000C5D1A /* 가장큰정사각형찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "가장큰정사각형찾기.swift"; sourceTree = "<group>"; };
 		75A4AC8726722AA3000C5D1A /* 땅따먹기_블로그참고.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "땅따먹기_블로그참고.swift"; sourceTree = "<group>"; };
 		75A4AC8926722FB1000C5D1A /* 땅따먹기_다른사람풀이참고.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "땅따먹기_다른사람풀이참고.swift"; sourceTree = "<group>"; };
-		75CC816A2678BC0E00EBE9D6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		75CC816A2678BC0E00EBE9D6 /* 다리를지나는트럭.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "다리를지나는트럭.swift"; sourceTree = "<group>"; };
 		75CC816C2678CD0100EBE9D6 /* 카펫.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "카펫.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,7 +79,7 @@
 				75A4AC8726722AA3000C5D1A /* 땅따먹기_블로그참고.swift */,
 				75A4AC8926722FB1000C5D1A /* 땅따먹기_다른사람풀이참고.swift */,
 				75CC816C2678CD0100EBE9D6 /* 카펫.swift */,
-				75CC816A2678BC0E00EBE9D6 /* main.swift */,
+				75CC816A2678BC0E00EBE9D6 /* 다리를지나는트럭.swift */,
 			);
 			path = Level2_Programmers;
 			sourceTree = "<group>";
@@ -146,7 +142,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75CC816B2678BC0E00EBE9D6 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
