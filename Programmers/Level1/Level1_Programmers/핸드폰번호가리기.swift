@@ -1,6 +1,8 @@
 // 프로그래머스 레벨1. 핸드폰 번호 가리기
 //
 // 두 바퀴째 - 훨씬 깔끔해져따! suffix랑 prefix랑 정리해야겠다,,,.
+//
+// 세 바퀴째 - 굳이 suffix 사용하지 않아도 충분히 깔끔하게 풀었다,!!! 어차피 배열 생성하는건 같으니 시간복잡도도 괜찮을듯.!
 
 import Foundation
 
@@ -30,11 +32,21 @@ func solution2(_ phone_number:String) -> String {
     return result.joined() + phone_number.suffix(4)
 }
 
+// 세 바퀴째 풀이
+func solution3(_ phone_number:String) -> String {
+    var arr = Array(phone_number)
+    for i in 0..<phone_number.count-4 { arr[i] = "*" }
+    return String(arr)
+}
+
 // 입출력 예시
 print(solution1("01033334444"))
 print(solution1("027778888"))
 
 print(solution2("01033334444"))
 print(solution2("027778888"))
+
+print(solution3("01033334444"))
+print(solution3("027778888"))
 
 
