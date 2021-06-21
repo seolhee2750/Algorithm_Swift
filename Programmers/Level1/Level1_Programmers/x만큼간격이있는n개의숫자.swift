@@ -3,6 +3,8 @@
 // 두 바퀴째 - for문을 사용했는데, 그 부분 빼고는 다 첫 번째 풀이와 같은데,,
 // 왜 for문 쓸 때는 형변환을 저렇게 더 디테일하게 해줘야되는건지;,.,.,.,
 // 시간 복잡도는 두 풀이 모두 비슷
+//
+// 세 바퀴째 - 너무 쉬운 문제라 로직은 다를게 없지만,, 정말 간단해졌네,,,!<!<!
 
 // 첫 번째 풀이
 func solution1(_ x:Int, _ n:Int) -> [Int64] {
@@ -33,6 +35,13 @@ func solution2(_ x:Int, _ n:Int) -> [Int64] {
     return result
 }
 
+// 세 바퀴째 풀이
+func solution3(_ x:Int, _ n:Int) -> [Int64] {
+    var arr = [Int64]()
+    for i in 0..<n { arr.append(Int64(x+(x*i))) }
+    return  arr
+}
+
 // 입출력 예시
 print(solution1(2, 5))
 print(solution1(4, 3))
@@ -41,4 +50,8 @@ print(solution1(-4, 2))
 print(solution2(2, 5))
 print(solution2(4, 3))
 print(solution2(-4, 2))
+
+print(solution3(2, 5))
+print(solution3(4, 3))
+print(solution3(-4, 2))
 
