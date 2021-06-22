@@ -3,6 +3,9 @@
 // 두 바퀴째 - if, else 문 훨씬 간단하게 작성했고
 // while문에서 최대공약수 구할 때, 더 작은수부터 나누기 시작해서 반복 횟수가 줄었음!!
 // + 첫 번째로 풀었던 풀이 다시 프로그래머스에서 돌려보니까 런타임 에러 뜨네;; 그 이후로 업데이트됐나,,
+//
+// 세 바퀴째 - 로직은 거의 같지만 if, else 대신 삼항연산자를 사용했고
+// while 대신 reversed 메소드를 이용해 for문을 사용해따! 코드가 훨씬 깔끔해짐.
 
 import Foundation
 
@@ -54,6 +57,15 @@ func solution2(_ n:Int, _ m:Int) -> [Int] {
     }
     
     return [gcd, m*n/gcd]
+}
+
+// 세 바퀴째
+func solution(_ n:Int, _ m:Int) -> [Int] {
+    var gcd = 0
+    var min = 0
+    n > m ? (min = m) : (min = n)
+    for i in (1...min).reversed() { if n%i==0 && m%i==0 { gcd = i; break } }
+    return [gcd, (n*m)/gcd]
 }
 
 // 입출력 예시
