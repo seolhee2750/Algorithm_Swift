@@ -1,6 +1,8 @@
 // 프로그래머스 레벨1. 콜라츠 추측
 //
 // 두 바퀴째 - 첫 번째 풀이랑 로직은 같은데 반복 횟수를 if문 밖으로 꺼내서 효율 높아졌다,.!
+//
+// 세 바퀴째 - 로직은 같은데 훨씬 깔꿈
 
 import Foundation
 
@@ -53,6 +55,20 @@ func solution2(_ num:Int) -> Int {
             count = -1
             break
         }
+    }
+    
+    return count
+}
+
+// 세 바퀴째
+func solution(_ num:Int) -> Int {
+    var n = num
+    var count = 0
+    
+    while n > 1 {
+        n%2==0 ? (n=n/2) : (n=n*3+1)
+        count += 1
+        if count == 500 { count = -1; break }
     }
     
     return count

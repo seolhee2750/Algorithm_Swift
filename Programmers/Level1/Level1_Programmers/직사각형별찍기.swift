@@ -1,6 +1,8 @@
 // 프로그래머스 레벨1. 직사각형 별 찍기
 //
 // 두 바퀴째 - 첫 번째랑 걍 똑같이 풀었음. / String(repeating: count:) 외우깅
+//
+// 세 바퀴째 - 거의 동일.,
 
 import Foundation
 
