@@ -6,13 +6,24 @@
 // Ex)
 // let n = 5; let m = String(n, radix: 2) --> 10진수 5를 2진수로 변환
 // Int(m, radix: 2)! --> 2진수 m을 10진수로 변환
+//
+// 두 바퀴째 - 같은 로직이지만 한 줄로 더 간결히 표현!
 
 import Foundation
 
-func solution(_ n:Int) -> Int {
+// 첫 번째 풀이
+func solution1(_ n:Int) -> Int {
     let num = String(String(n, radix: 3).reversed())
     return Int(num, radix: 3)!
 }
 
-print(solution(45))
-print(solution(125))
+// 두 바퀴째 풀이
+func solution2(_ n:Int) -> Int {
+    return Int(String(String(n, radix: 3).reversed()), radix: 3)!
+}
+
+print(solution1(45))
+print(solution1(125))
+
+print(solution2(45))
+print(solution2(125))
