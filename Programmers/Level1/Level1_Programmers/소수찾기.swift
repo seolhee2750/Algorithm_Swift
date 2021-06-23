@@ -1,6 +1,8 @@
 // 프로그래머스 레벨1. 소수 찾기
 //
 // 두 바퀴째 - 첫 번째와 로직은 같은데 가독성 측면에서 더 좋아진듯?,,
+//
+// 세 바퀴째 - 로직은 같고, 필요없는 부분 배제하고 잘 푼듯.
 
 import Foundation
 
@@ -71,6 +73,26 @@ func solution2(_ n:Int) -> Int {
     }
 }
 
+// 세 바퀴째 풀이
+import Foundation
+
+func solution3(_ n:Int) -> Int {
+    var count = 2
+    
+    if n == 2 { return 1 }
+    else if n == 3 { return 2 }
+    else {
+        for i in 4...n {
+            var isPrime = true
+            for j in 2...Int(sqrt(Double(i))) {
+                if i%j == 0 { isPrime = false; break }
+            }
+            if isPrime == true { count += 1 }
+        }
+    }
+    return count
+}
+
 
 // 입출력 예시
 print(solution1(10))
@@ -78,3 +100,6 @@ print(solution1(5))
 
 print(solution2(10))
 print(solution2(5))
+
+print(solution3(10))
+print(solution3(5))
