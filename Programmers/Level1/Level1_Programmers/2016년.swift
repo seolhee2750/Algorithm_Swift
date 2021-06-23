@@ -2,6 +2,9 @@
 //
 // 두 바퀴째 - 첫 번째 풀이와 로직은 거의 같은데
 // day 배열을 첫 번째 풀이처럼 그냥 FRI부터 시작하게 했으면 조금 더 효율적이었을 듯
+//
+// 세 바퀴째 - 로직은 첫 번째, 두 번째 풀이와 비슷하지만 훨씬 간결하게 작성했다.
+// reduce와 ...로 표현하는 범위를 더 쉽게 사용할 수 있게 되었더니 문제 풀이가 더 쉬워졌다!
 
 import Foundation
 
@@ -30,6 +33,13 @@ func solution2(_ a:Int, _ b:Int) -> String {
     }
     
     return day[(dayCount + 5 + b - 1) % 7]
+}
+
+// 세 바퀴째 풀이
+func solution(_ a:Int, _ b:Int) -> String {
+    let days = ["FRI", "SAT", "SUN", "MON", "TUE", "WED", "THU"]
+    let months = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    return days[(months[0..<(a-1)].reduce(0, +) + b - 1) % 7]
 }
 
 // 입출력 예시
