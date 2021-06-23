@@ -1,6 +1,8 @@
 // 프로그래머스 레벨1. 나누어 떨어지는 숫자 배열
 //
 // 두 바퀴째 - 첫 번째 풀이와 거의 같지만 디테일한 부분에서 더 깔끔해졌음!
+//
+// 세 바퀴째 - 미쳤다. 완전 깔끔!!
 
 import Foundation
 
@@ -26,6 +28,12 @@ func solution2(_ arr:[Int], _ divisor:Int) -> [Int] {
         if arr[i] % divisor == 0 { result.append(arr[i]) }
     }
     return result.isEmpty ? [-1] : result.sorted()
+}
+
+// 세 바퀴째 풀이
+func solution(_ arr:[Int], _ divisor:Int) -> [Int] {
+    var res = Array(arr.filter({$0%divisor == 0}))
+    return res.isEmpty ? [-1] : res.sorted()
 }
 
 // 입출력 예시
