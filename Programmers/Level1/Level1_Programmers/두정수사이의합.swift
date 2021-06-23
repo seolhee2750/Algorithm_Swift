@@ -4,6 +4,11 @@
 // 이렇게 저렇게 해봐도 다 테스트 하나에서 자꾸 시간초과가 뜬다ㅎ
 // 그래서 다시 풀어봤다. -> solution3
 // 첫 번째 풀이보다 훨씬 가독성도 좋고 효율적.
+//
+// 세 바퀴째 - 원래 배열로 생성해서 더해줬는데, 간결해보이지만 배열 생성 자체가 시간을 넘 많이 잡아먹어서 실패!
+// 배열 안에 조건문 쓸 수 있다는거 첨 알아서,, 공부 목적으로 적어둔당.
+// 그래서 다시 풀어봤는데, 원래 풀이들보다 훨씬 깔끔!!
+// for문 범위에도 조건식 쓸 수 있음을 처음 알게 됐다. !!!
 
 import Foundation
 
@@ -56,6 +61,18 @@ func solution3(_ a:Int, _ b:Int) -> Int64 {
     }
     
     return Int64(result)
+}
+
+// 세 바퀴째 풀이 - 실패
+func solution(_ a:Int, _ b:Int) -> Int64 {
+    return Int64(Array(a >= b ? b...a : a...b).reduce(0, +))
+}
+
+// 세 바퀴째 풀이 - 성공
+func solution(_ a:Int, _ b:Int) -> Int64 {
+    var sum = 0
+    for i in (a > b ? b...a : a...b) { sum += i }
+    return Int64(sum)
 }
 
 // 입출력 예시
