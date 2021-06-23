@@ -3,6 +3,8 @@
 // 두 바퀴째 - 나름 잘 풀었다고 생각했는데, 첫 번째 풀이가 미쳤다;
 // 문자열 안에 정수가 아닌 것이 있는지 확인할 때는
 // Int로 형변환 한 후, 강제추출 사용하지 않고 nil 값이 나오는지 확인하기,,, 메모,,
+//
+// 세 바퀴째 - 엄청 깔끔하게 변했다! ><
 
 import Foundation
 
@@ -46,10 +48,19 @@ func solution2(_ s:String) -> Bool {
     }
 }
 
+// 세 바퀴째 풀이
+func solution(_ s:String) -> Bool {
+    return (s.count == 4 || s.count == 6) && (Int(s) != nil)
+}
+
 // 입출력 예시
 print(solution1("a234"))
 print(solution1("1234"))
 
 print(solution2("a234"))
 print(solution2("1234"))
+
+print(solution3("a234"))
+print(solution3("1234"))
+
 
