@@ -1,8 +1,11 @@
 // 프로그래머스 레벨1. 체육복
+//
+// 두 바퀴째 - 필요없는 코드는 다 쳐내고, 훨씬 간결히 작성했다!
 
 import Foundation
 
-func solution(_ n:Int, _ lost:[Int], _ reserve:[Int]) -> Int {
+// 첫 번째 풀이
+func solution1(_ n:Int, _ lost:[Int], _ reserve:[Int]) -> Int {
     var student = Array<Int>(repeating: 1, count: n)
     var result = 0
     
@@ -59,7 +62,30 @@ func solution(_ n:Int, _ lost:[Int], _ reserve:[Int]) -> Int {
     return n - result
 }
 
+// 두 바퀴째 풀이
+func solution2(_ n:Int, _ lost:[Int], _ reserve:[Int]) -> Int {
+    var stu = Array(repeating: 1, count: n)
+    for i in 0..<lost.count { stu[lost[i]-1] -= 1 }
+    for i in 0..<reserve.count { stu[reserve[i]-1] += 1 }
+                             
+    if stu[0]==0 && stu[1]==2 { stu[0]=1; stu[1]=1 }
+    if stu[n-1]==0 && stu[n-2]==2 {stu[n-1]=1; stu[n-2]=1}
+
+    for i in 1..<n-1 {
+        if stu[i]==0 {
+            if stu[i-1]==2 { stu[i-1]=1; stu[i]=1 }
+            else if stu[i+1]==2 { stu[i]=1; stu[i+1]=1 }
+        }
+    }
+    
+    return stu.filter({$0 > 0}).count
+}
+
 // 입출력 예시
-print(solution(5, [2, 4], [1, 3, 5]))
-print(solution(5, [2, 3], [3]))
-print(solution(3, [3], [1]))
+print(solution1(5, [2, 4], [1, 3, 5]))
+print(solution1(5, [2, 3], [3]))
+print(solution1(3, [3], [1]))
+
+print(solution2(5, [2, 4], [1, 3, 5]))
+print(solution2(5, [2, 3], [3]))
+print(solution2(3, [3], [1]))
