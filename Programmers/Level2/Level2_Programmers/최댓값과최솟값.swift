@@ -1,3 +1,7 @@
+// 프로그래머스 레벨2. 최댓값과 최솟값
+//
+// 두 바퀴째 - 첫 번째 풀이와 완전 같음.
+
 import Foundation
 
 func solution(_ s:String) -> String {
