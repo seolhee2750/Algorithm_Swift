@@ -22,6 +22,7 @@
 		7595963A2683025E00AAD0A5 /* 부캠데모테스트.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부캠데모테스트.swift"; sourceTree = "<group>"; };
 		75A4AC9526723DA5000C5D1A /* BoostCampPreTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BoostCampPreTest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A4AC9826723DA5000C5D1A /* 자가진단6번.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "자가진단6번.swift"; sourceTree = "<group>"; };
+		75CD8D39268C486100423372 /* 부캠데모테스트2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "부캠데모테스트2.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			children = (
 				75A4AC9826723DA5000C5D1A /* 자가진단6번.swift */,
 				7595963A2683025E00AAD0A5 /* 부캠데모테스트.swift */,
+				75CD8D39268C486100423372 /* 부캠데모테스트2.swift */,
 			);
 			path = BoostCampPreTest;
 			sourceTree = "<group>";
@@ -91,6 +93,7 @@
 				TargetAttributes = {
 					75A4AC9426723DA5000C5D1A = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -241,10 +244,17 @@
 		75A4AC9D26723DA5000C5D1A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C75XXHMKCL;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -252,9 +262,15 @@
 		75A4AC9E26723DA5000C5D1A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C75XXHMKCL;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
