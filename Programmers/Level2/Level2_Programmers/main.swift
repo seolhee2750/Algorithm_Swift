@@ -27,7 +27,7 @@ func solution(_ numbers: String) -> Int {
     var count = 0
     let toCheckPrime = answer.map({Int($0)!})
     
-    func PrimeCheck() -> Int {
+    func PrimeCheck() {
         var isNotPrime = false
         
         for i in 0..<toCheckPrime.count {
@@ -44,17 +44,26 @@ func solution(_ numbers: String) -> Int {
             }
         }
         
-        return count
+        return
     }
+    
+    var permuIsOver = false
     
     for i in 1...numbers.count {
         r = i
         result = Array(repeating: 0, count: r)
         PermuSolution(0)
+        if i == numbers.count { permuIsOver = true }
     }
     
-    return PrimeCheck()
+    if permuIsOver == true { PrimeCheck() }
+    
+    return count
 }
 
 print(solution("17"))
 print(solution("011"))
+
+// 지금 문제가..
+// 함수 안에서 위에 함수 돌고 그담에 아래 함수 돌고 또 다시 위에 함수 돌고 이딴식임. 왜이러는지 모르겠는데
+// 그걸 고쳐야함..ㅜㅜ 디버깅하면서 원인을 찾아보자....
