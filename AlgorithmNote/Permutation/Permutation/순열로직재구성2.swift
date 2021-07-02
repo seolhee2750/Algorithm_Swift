@@ -1,3 +1,5 @@
+// 조합 구하고, 중복 제거된 Int 배열 출력
+
 import Foundation
 
 let numbers = [0, 1, 1, 1]
