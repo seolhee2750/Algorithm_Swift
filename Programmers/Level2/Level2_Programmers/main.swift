@@ -6,7 +6,6 @@ func solution(_ n:Int) -> Int
 {
     let binaryNum = String(n, radix: 2) // n을 이진수로 변경
     let count1 = binaryNum.map({$0}).filter({$0 == "1"}).count // n 이진수의 1 개수
-    
     var result = n + 1 // n보다 1 큰 자연수
     
     // result값을 이진수로 변환한 값의 1 개수가 n 이진수의 1 개수와 같을 시 break
