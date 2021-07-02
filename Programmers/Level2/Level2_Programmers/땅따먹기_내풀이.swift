@@ -1,5 +1,6 @@
-// 시간 초과,,
+// 프로그래머스 레벨2. 땅따먹기
 
+// 첫 번째 풀이 - 시간 초과,,
 import Foundation
 
 func solution(_ land:[[Int]]) -> Int {
