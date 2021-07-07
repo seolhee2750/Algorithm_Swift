@@ -3,8 +3,8 @@
 import Foundation
 
 func Factorial(_ num: Int) -> Int {
-    if num < 2 { return num }
-    return Factorial(num-1) * num
+    if num < 2 { return num } // 예외
+    return Factorial(num-1) * num // 메인 식
 }
 
 print(Factorial(3)) // 6
