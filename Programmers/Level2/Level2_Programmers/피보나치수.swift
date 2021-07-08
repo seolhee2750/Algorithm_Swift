@@ -4,6 +4,8 @@
 //
 // 세 바퀴째 풀이 - 첫 번째 풀이와 같음.
 // 재귀함수 사용한 것 보다 코드만 보면 별루같은뎅,, 재귀는 시간복잡도가 높나부다. 이거 한번 확인해봐야겠다.
+// 네 바퀴째 풀이 - 꼬리 재귀함수 공부한 기념으로 다시 풀어봤다.
+// 근데 이것도 시간복잡도 큰건 똑같네..^^
 
 import Foundation
 
@@ -37,9 +39,21 @@ func solution2(_ n:Int) -> Int {
     return (solution2(n - 1) + solution2(n - 2)) % 1234567
 }
 
+// 네 바퀴째 풀이 - 시간초과
+func solution3(_ n:Int) -> Int {
+    func tailFibo(_ num: Int, _ n: Int, _ sum: Int) -> Int {
+        if num == 1 { return sum }
+        return tailFibo(num - 1, sum, n + sum) % 1234567
+    }
+    return tailFibo(n, 0, 1)
+}
+
 // 입출력 예시
 print(solution1(3))
 print(solution1(5))
 
 print(solution2(3))
 print(solution2(5))
+
+print(solution3(3))
+print(solution3(5))
