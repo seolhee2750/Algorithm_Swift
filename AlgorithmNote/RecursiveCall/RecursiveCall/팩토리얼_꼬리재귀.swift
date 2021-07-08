@@ -2,18 +2,15 @@
 
 import Foundation
 
+// 꼬리 재귀
 func tailRecursion(_ x: Int, _ fac: Int) -> Int {
-    if x == 1 {
-        return fac
-    }
+    if x == 1 { return fac }
     return tailRecursion(x-1, x * fac)
 }
 
-// 일반적인 재귀
+// 일반 재귀
 func Recursion(_ x: Int) -> Int {
-    if x == 1 {
-        return 1
-    }
+    if x == 1 { return 1 }
     return x * Recursion(x-1)
 }
 
