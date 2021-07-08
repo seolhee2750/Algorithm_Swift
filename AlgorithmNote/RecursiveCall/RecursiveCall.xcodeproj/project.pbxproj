@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		7505967A2695FAF4002C1839 /* 재귀함수기본형태.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "재귀함수기본형태.swift"; sourceTree = "<group>"; };
+		758E2C212697457B00B4057F /* 팩토리얼_꼬리재귀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "팩토리얼_꼬리재귀.swift"; sourceTree = "<group>"; };
 		75A397832695DD860001C075 /* RecursiveCall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RecursiveCall; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A397862695DD860001C075 /* 팩토리얼.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "팩토리얼.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,8 +59,9 @@
 		75A397852695DD860001C075 /* RecursiveCall */ = {
 			isa = PBXGroup;
 			children = (
-				75A397862695DD860001C075 /* 팩토리얼.swift */,
 				7505967A2695FAF4002C1839 /* 재귀함수기본형태.swift */,
+				75A397862695DD860001C075 /* 팩토리얼.swift */,
+				758E2C212697457B00B4057F /* 팩토리얼_꼬리재귀.swift */,
 			);
 			path = RecursiveCall;
 			sourceTree = "<group>";
