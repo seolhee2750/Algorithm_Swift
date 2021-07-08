@@ -11,7 +11,7 @@ func tailFibo(_ num: Int, _ n: Int, _ sum: Int) -> Int {
 // 일반 재귀
 func Fibo(_ n: Int) -> Int {
     if n == 0 || n == 1 { return n }
-    return (Fibo(n - 1) + Fibo(n - 2))
+    return Fibo(n - 1) + Fibo(n - 2)
 }
 
 print(tailFibo(5, 0, 1))
