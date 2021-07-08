@@ -36,7 +36,7 @@ func solution2(_ s:String) -> Bool {
         if sum < 0 { return false }
     }
 
-    return sum != 0 ? false : true
+    return sum == 0
 }
 
 // 입출력 예시
