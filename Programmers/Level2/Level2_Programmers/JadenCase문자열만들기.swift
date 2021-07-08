@@ -16,7 +16,7 @@ func solution1(_ s:String) -> String {
         for j in arr[i] {
             // 알파벳일 때
             if upperString.contains(j) || lowerString.contains(j) {
-                result.append(arr[i].capitalized) // 대문자로 바꿔주기
+                result.append(arr[i].capitalized) // 첫 글자는 대문자, 나머지는 소문자로!
                 break // 바로 탈출
             }
             
