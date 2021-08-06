@@ -1,3 +1,7 @@
+// 프로그래머스 레벨2. 다리를 지나는 트럭
+//
+// 문제 풀이가.. 되게 쉬운데 어렵고 ;; 특이한 문제ㅜ 나중에 꼭 다시 한 번 풀어보자.
+
 import Foundation
 
 func solution(_ bridge_length:Int, _ weight:Int, _ truck_weights:[Int]) -> Int {
@@ -25,6 +29,7 @@ func solution(_ bridge_length:Int, _ weight:Int, _ truck_weights:[Int]) -> Int {
     return sec
 }
 
+// 입출력 예시
 print(solution(2, 10, [7, 4, 5, 6]))
 print(solution(100, 100, [10]))
 print(solution(100, 100, [10, 10, 10, 10, 10, 10, 10, 10, 10, 10]))

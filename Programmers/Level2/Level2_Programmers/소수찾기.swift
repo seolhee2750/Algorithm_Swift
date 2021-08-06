@@ -74,5 +74,6 @@ func solution(_ numbers: String) -> Int {
     return PrimeCheck(0)
 }
 
+// 입출력 예시
 print(solution("17"))
 print(solution("011"))
