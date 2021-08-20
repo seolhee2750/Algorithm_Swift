@@ -33,7 +33,7 @@
 - [LinkedList-연결리스트](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/LinkedList_BOJ/LinkedList_BOJ)
 - [Stack-스택](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Stack_BOJ/Stack_BOJ)
 - [Queue-큐](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Queue_BOJ/Queue_BOJ)
-- [Greedy-그리디](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Greedy_BOJ/Greedy_BOJ)
+- [Greedy-탐욕법](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Greedy_BOJ/Greedy_BOJ)
 
 ###### 블로그 정리는 여기를 참고해주세요! 👉 [BOJ 정리](https://seolhee2750.tistory.com/category/%F0%9F%93%8D%20Problem%20Solving%20with%20Swift/%F0%9F%8F%B7%20BOJ) 👈
 
