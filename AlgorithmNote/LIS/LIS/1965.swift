@@ -1,5 +1,5 @@
 // BOJ #1965 상자넣기
-// LIS 대표 예제
+// DP 기반 LIS 대표 예제
 
 import Foundation
 
@@ -12,7 +12,7 @@ for i in 0..<n {
     count.append(1)
     
     for j in 0..<i {
-        if box[j] < box[i] && count[i] < count[j]+1 { count[i] = count[j]+1 }
+        if box[j] < box[i] && count[i] <= count[j] { count[i] = count[j]+1 }
     }
     
     if max < count[i] { max = count[i] }
