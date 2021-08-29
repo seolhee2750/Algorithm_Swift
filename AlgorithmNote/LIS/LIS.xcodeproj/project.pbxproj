@@ -6,6 +6,10 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		75D5F2C926DB5A1900BCE4B4 /* LIS기본형태_BS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D5F2C826DB5A1900BCE4B4 /* LIS기본형태_BS.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		75A42DFF26D7D471003DFF86 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -22,6 +26,7 @@
 		75A42E0126D7D471003DFF86 /* LIS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LIS; sourceTree = BUILT_PRODUCTS_DIR; };
 		75A42E0426D7D471003DFF86 /* 1965.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1965.swift; sourceTree = "<group>"; };
 		75D5F2B626DA601C00BCE4B4 /* LIS기본형태_DP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LIS기본형태_DP.swift"; sourceTree = "<group>"; };
+		75D5F2C826DB5A1900BCE4B4 /* LIS기본형태_BS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LIS기본형태_BS.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +59,9 @@
 		75A42E0326D7D471003DFF86 /* LIS */ = {
 			isa = PBXGroup;
 			children = (
-				75A42E0426D7D471003DFF86 /* 1965.swift */,
 				75D5F2B626DA601C00BCE4B4 /* LIS기본형태_DP.swift */,
+				75D5F2C826DB5A1900BCE4B4 /* LIS기본형태_BS.swift */,
+				75A42E0426D7D471003DFF86 /* 1965.swift */,
 			);
 			path = LIS;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D5F2C926DB5A1900BCE4B4 /* LIS기본형태_BS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
