@@ -22,6 +22,7 @@
 		7578F6A426E11B2F00325F77 /* 입출력과 사칙연산 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "입출력과 사칙연산"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7578F6A726E11B2F00325F77 /* 2557.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2557.swift; sourceTree = "<group>"; };
 		7578F6AE26E11F5200325F77 /* 10718.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10718.swift; sourceTree = "<group>"; };
+		7578F6B126E11FE700325F77 /* 10171.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 10171.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 			children = (
 				7578F6A726E11B2F00325F77 /* 2557.swift */,
 				7578F6AE26E11F5200325F77 /* 10718.swift */,
+				7578F6B126E11FE700325F77 /* 10171.swift */,
 			);
 			path = "입출력과 사칙연산";
 			sourceTree = "<group>";
