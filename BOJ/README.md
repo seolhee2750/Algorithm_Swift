@@ -8,8 +8,9 @@
 </br>
 
 1. [입출력과 사칙연산](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0/%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0)
-2. [Array-배열](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Array_BOJ/Array_BOJ)
-3. [LinkedList-연결리스트](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/LinkedList_BOJ/LinkedList_BOJ)
-4. [Stack-스택](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Stack_BOJ/Stack_BOJ)
-5. [Queue-큐](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Queue_BOJ/Queue_BOJ)
-6. [Greedy-탐욕법](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Greedy_BOJ/Greedy_BOJ)
+2. [if문](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/if%EB%AC%B8/if%EB%AC%B8)
+3. [Array-배열](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Array_BOJ/Array_BOJ)
+4. [LinkedList-연결리스트](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/LinkedList_BOJ/LinkedList_BOJ)
+5. [Stack-스택](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Stack_BOJ/Stack_BOJ)
+6. [Queue-큐](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Queue_BOJ/Queue_BOJ)
+7. [Greedy-탐욕법](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Greedy_BOJ/Greedy_BOJ)
