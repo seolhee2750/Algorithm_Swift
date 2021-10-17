@@ -31,14 +31,13 @@
 ```
 백준 문제 풀이
 ```
-- [입출력과 사칙연산](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0/%EC%9E%85%EC%B6%9C%EB%A0%A5%EA%B3%BC%20%EC%82%AC%EC%B9%99%EC%97%B0%EC%82%B0)
-- [if문](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/if%EB%AC%B8/if%EB%AC%B8)
-- [Array-배열](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Array_BOJ/Array_BOJ)
-- [LinkedList-연결리스트](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/LinkedList_BOJ/LinkedList_BOJ)
-- [Stack-스택](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Stack_BOJ/Stack_BOJ)
-- [Queue-큐](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Queue_BOJ/Queue_BOJ)
-- [Greedy-탐욕법](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Greedy_BOJ/Greedy_BOJ)
-- [BFS-너비우선탐색](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/BFS_BOJ/BFS_BOJ)
+- [기초](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/%EA%B8%B0%EC%B4%88)
+- [Array-배열](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Array_BOJ/Array_BOJ)
+- [LinkedList-연결리스트](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/LinkedList_BOJ/LinkedList_BOJ)
+- [Stack-스택](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Stack_BOJ/Stack_BOJ)
+- [Queue-큐](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Queue_BOJ/Queue_BOJ)
+- [Greedy-탐욕법](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Greedy_BOJ/Greedy_BOJ)
+- [BFS-너비우선탐색](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/BFS_BOJ/BFS_BOJ)
 
 ###### 블로그 정리는 여기를 참고해주세요! 👉 [BOJ 정리](https://seolhee2750.tistory.com/category/%F0%9F%93%8D%20Problem%20Solving%20with%20Swift/%F0%9F%8F%B7%20BOJ) 👈
 
