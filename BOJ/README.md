@@ -8,9 +8,9 @@
 </br>
 
 1. [기초](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/%EA%B8%B0%EC%B4%88)
-4. [Array-배열](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Array_BOJ/Array_BOJ)
-5. [LinkedList-연결리스트](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/LinkedList_BOJ/LinkedList_BOJ)
-6. [Stack-스택](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Stack_BOJ/Stack_BOJ)
-7. [Queue-큐](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Queue_BOJ/Queue_BOJ)
-8. [Greedy-탐욕법](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/Greedy_BOJ/Greedy_BOJ)
-9. [BFS-너비우선탐색](https://github.com/KKP-iOS-Study/Algorithm_Study/tree/main/Seolhee/BFS_BOJ/BFS_BOJ)
+4. [Array-배열](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Array_BOJ/Array_BOJ)
+5. [LinkedList-연결리스트](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/LinkedList_BOJ/LinkedList_BOJ)
+6. [Stack-스택](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Stack_BOJ/Stack_BOJ)
+7. [Queue-큐](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Queue_BOJ/Queue_BOJ)
+8. [Greedy-탐욕법](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Greedy_BOJ/Greedy_BOJ)
+9. [BFS-너비우선탐색](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/BFS_BOJ/BFS_BOJ)
