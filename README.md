@@ -37,7 +37,7 @@
 - [Stack-스택](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Stack_BOJ/Stack_BOJ)
 - [Queue-큐](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Queue_BOJ/Queue_BOJ)
 - [Greedy-탐욕법](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Greedy_BOJ/Greedy_BOJ)
-- [BFS-너비우선탐색](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/BFS_BOJ/BFS_BOJ)
+- [BFS/DFS-너비/깊이우선탐색](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/BFS-DFS_BOJ/BFS-DFS_BOJ)
 
 ###### 블로그 정리는 여기를 참고해주세요! 👉 [BOJ 정리](https://seolhee2750.tistory.com/category/%F0%9F%93%8D%20Problem%20Solving%20with%20Swift/%F0%9F%8F%B7%20BOJ) 👈
 
