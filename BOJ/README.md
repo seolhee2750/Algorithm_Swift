@@ -13,4 +13,4 @@
 6. [Stack-스택](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Stack_BOJ/Stack_BOJ)
 7. [Queue-큐](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Queue_BOJ/Queue_BOJ)
 8. [Greedy-탐욕법](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/Greedy_BOJ/Greedy_BOJ)
-9. [BFS-너비우선탐색](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/BFS_BOJ/BFS_BOJ)
+9. [BFS/DFS-너비/깊이우선탐색](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/BFS-DFS_BOJ/BFS-DFS_BOJ)
