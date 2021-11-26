@@ -40,8 +40,7 @@
 - [BFS/DFS-너비/깊이우선탐색](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/BFS-DFS_BOJ/BFS-DFS_BOJ)
 - [DP-동적프로그래밍](https://github.com/seolhee2750/Seolgorithm/tree/main/BOJ/DP_BOJ/DP_BOJ)
 
-###### 블로그 정리는 여기를 참고해주세요! 
-###### 👉 [BOJ 풀이 정리](https://seolhee2750.tistory.com/category/%F0%9F%94%B4%5B%20Swift%20%5D/BOJ) 👈
+###### 블로그 정리는 여기를 참고해주세요! 👉 [BOJ 풀이 정리](https://seolhee2750.tistory.com/category/%F0%9F%94%B4%5B%20Swift%20%5D/BOJ) 👈
 
 </br>
 
