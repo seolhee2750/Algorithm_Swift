@@ -6,5 +6,5 @@
 
 </br>
 
-- [Level 1](https://github.com/seolhee2750/Seolgorithm/tree/main/Programmers/Level1/Level1_Programmers)
-- [Level 2](https://github.com/seolhee2750/Seolgorithm/tree/main/Programmers/Level2/Level2_Programmers)
+1. [Level 1](https://github.com/seolhee2750/Seolgorithm/tree/main/Programmers/Level1/Level1_Programmers)
+2. [Level 2](https://github.com/seolhee2750/Seolgorithm/tree/main/Programmers/Level2/Level2_Programmers)
