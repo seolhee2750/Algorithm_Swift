@@ -28,6 +28,7 @@ func dfs(_ x: Int, _ y: Int, _ mark: Character, _ color: Character) {
     dfs(x, y-1, mark, color)
 }
 
+// 적록색약 아닌 사람 (1차)
 for i in 0..<n {
     for j in 0..<n {
         if picture[i][j] == "c" || picture[i][j] == "s" { continue }
@@ -40,6 +41,7 @@ for i in 0..<n {
     }
 }
 
+// 적록색약인 사람 (2차)
 for i in 0..<n {
     for j in 0..<n {
         if picture[i][j] == "f" { continue }
