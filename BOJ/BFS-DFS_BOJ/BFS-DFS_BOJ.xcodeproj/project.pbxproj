@@ -32,6 +32,7 @@
 		75947F1F26EE40A800C556EB /* 1926.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1926.swift; sourceTree = "<group>"; };
 		75A74346270B050200A2CFF0 /* 1697.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1697.swift; sourceTree = "<group>"; };
 		75AD1244279C4FD800660440 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		75AD1248279C50A700660440 /* 9019_DSLR.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 9019_DSLR.swift; sourceTree = "<group>"; };
 		75B2DAA3271469EE00E99FAE /* 2468.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2468.swift; sourceTree = "<group>"; };
 		75B6AD1A2710822F0040B257 /* 2583.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2583.swift; sourceTree = "<group>"; };
 		75BE704D27130EF40072A255 /* 2667.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2667.swift; sourceTree = "<group>"; };
@@ -70,6 +71,7 @@
 			children = (
 				75947F1F26EE40A800C556EB /* 1926.swift */,
 				75F4FDA226F1D9E2006E4DF1 /* 2178.swift */,
+				75AD1248279C50A700660440 /* 9019_DSLR.swift */,
 				75054CF12706FB9A0037A795 /* 7576.swift */,
 				758BDB9427071A82008FB513 /* 4179.swift */,
 				75A74346270B050200A2CFF0 /* 1697.swift */,
